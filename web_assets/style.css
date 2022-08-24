@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+  
+.blue {
+    color: blue;
+    font-display: arial;
+    font-size: 35px;
+    font-family: NotoSansJP;
+}
+  
+  .orange {
+    color: orange;
+    font-size: 25px;
+    font-family: NotoSansJP;
+}
+  
+  .big-purple {
+    color:purple;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: NotoSansJP;
+}
+  
+  .purple {
+    color: purple;
+    font-family: NotoSansJP;
+}
+  
+  .red {
+    color: red;
+    font-size: 17px;
+    font-family: NotoSansJP;
+}
+  
+  li {
+    color:maroon;
+    font-size: 17px;
+    font-family: NotoSansJP;
+}
+  
+  /* Noto Sans JP Fonts*/
+  
+  @font-face {
+    font-family: NotoSansJP;
+    src: url(/web_assets/gfx/NotoSansJP-Regular.otf);
+}
